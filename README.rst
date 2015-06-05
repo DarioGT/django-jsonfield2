@@ -1,7 +1,6 @@
 Django-JSONField2 
 ===================
 
-
 ``django-json-field2`` It is a compilation and adaptation of the following projects 
 
 * https://bitbucket.org/schinckel/django-jsonfield 
@@ -19,7 +18,7 @@ South support
 Form field
 Form widget
 Model field
-Python3 support 	
+Python3 support
 
 
 ``django-jsonfield2`` is also compatible with South, Django 1.8 and Python 3.
@@ -57,7 +56,7 @@ Add ``jsonfield2`` to your ``PYTHONPATH`` and ``INSTALLED_APPS`` setting:
 Usage
 -----
 
-
+::
     from django.db import models
 	from jsonfield2 import JSONField, JSONAwareManager
 
@@ -76,6 +75,7 @@ Usage
 Json Query 
 ----------
 
+::
     ...
     obj = Person.objects.create(name = "Bill")
     obj.info = {
@@ -94,8 +94,6 @@ Usage
 -----
 
 Now, it will validate the JSON on entry, and store it as a text in the database.  When you instantiate/fetch the object, it will be turned back into a python list/dict/string.
-
-There is also a ``TypedJSONField``, that allows you to define data types that must be included within each object in the array. More documentation to follow.
 
 
 
