@@ -1,0 +1,6 @@
+recursive-include jsonfield *.py
+recursive-exclude jsonfield *.pyc
+
+include README.rst
+include LICENSE
+include AUTHORS
