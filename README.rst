@@ -57,6 +57,7 @@ Usage
 -----
 
 ::
+
     from django.db import models
 	from jsonfield2 import JSONField, JSONAwareManager
 
@@ -76,6 +77,7 @@ Json Query
 ----------
 
 ::
+
     ...
     obj = Person.objects.create(name = "Bill")
     obj.info = {
