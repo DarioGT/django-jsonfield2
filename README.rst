@@ -1,7 +1,9 @@
 Django-JSONField2 
 ===================
 
-``django-json-field2`` It is a compilation and adaptation of the following projects 
+``django-json-field2`` is a flexible quering JSONField and associated form field
+
+It is a compilation and adaptation of the following projects 
 
 * https://bitbucket.org/schinckel/django-jsonfield 
 * https://github.com/derek-schaefer/django-json-field
