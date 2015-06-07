@@ -1,0 +1,12 @@
+myvenv
+__pycache__
+staticfiles
+*.py[co]
+
+.settings/
+build/
+dist/
+django_jsonfield2.egg-info/
+
+# db.sqlite3
+# local_settings.py
