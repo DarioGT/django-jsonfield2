@@ -51,12 +51,13 @@ Add ``jsonfield2`` to your ``PYTHONPATH`` and ``INSTALLED_APPS`` setting:
         ...
     )
 
-
+::
 
 Usage
 -----
 
 ::
+
     from django.db import models
 	from jsonfield2 import JSONField, JSONAwareManager
 
