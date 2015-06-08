@@ -9,8 +9,8 @@ from django.test.utils import get_runner
 
 DEFAULT_SETTINGS = dict(
     INSTALLED_APPS=(
-        'qjsonfield',
-        'qjsonfield.tests',
+        'jsonfield2',
+        'jsonfield2.tests',
         ),
     DATABASES={
         "default": {
@@ -32,12 +32,12 @@ def runtests():
     TestRunner = get_runner(settings)
 
     test_runner = TestRunner()
-    failures = test_runner.run_tests(["qjsonfield.tests"])
+    failures = test_runner.run_tests(["jsonfield2.tests"])
     sys.exit(bool(failures))
 
     # from django.test.runner import DiscoverRunner
     # runner_class = DiscoverRunner
-    # test_args = ['qjsonfield.tests']
+    # test_args = ['jsonfield2.tests']
 
     # failures = runner_class( verbosity=1, interactive=True, failfast=False ).run_tests(test_args)
     # sys.exit(failures)

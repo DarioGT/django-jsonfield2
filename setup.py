@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name = "django-jsonfield2",
-    version = '15.06.07',
+    version = '15.06.08',
     license='BSD',
    
     description='A flexible quering JSONField and associated form field to store validated JSON in your model.',
