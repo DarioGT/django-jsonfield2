@@ -49,7 +49,7 @@ class JSONEncoder( DjangoJSONEncoder ):
 def default(o):
     if hasattr(o, 'to_json'):
         return o.to_json()
-    if isinstance(o, Decimal):
+    if isinstance(o, decimal.Decimal):
         return str(o)
     if isinstance(o, datetime.datetime):
         if o.tzinfo:
